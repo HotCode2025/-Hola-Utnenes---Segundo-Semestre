@@ -51,3 +51,5 @@ rm archivo.txt
 
 # Eliminar carpeta (⚠ cuidado, borra todo adentro)
 rm -rf Carpeta
+-------------------------------------------------------
+# Zona de prueba del commit 1 - branch Gabriel
