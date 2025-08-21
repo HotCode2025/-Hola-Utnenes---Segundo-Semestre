@@ -3,7 +3,9 @@ Rama de proyectos de ('Hola Utnenes')
 #########################################################
 # 🚨 ATENCIÓN HOLAUTNenes 🚨
 # RAMA PARA SUBIR LOS TRABAJOS GRUPALES
-# SOLO PARA LA CARPETA GRUPAL, AQUI DEBEN SI DEBEN SOLICITAR EL `pull request`
+# SOLO PARA LA CARPETA GRUPAL, AQUI DEBEN NO DEBEN SOLICITAR EL `pull request`
+# Un Pull Request NO actualiza todas las ramas, solo la rama de destino (en tu caso main).
+# Si querés que tus compañeros usen solo la rama Proyectos, lo correcto es que ellos hagan pull de esa rama, sin necesidad de PR.
 #########################################################
 
 # ¿Cómo agregar archivos?
