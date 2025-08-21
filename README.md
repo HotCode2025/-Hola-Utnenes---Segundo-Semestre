@@ -1,38 +1,39 @@
 # -Hola-Utnenes---Segundo-Semestre
-Repositorio principal de ('Hola Utnenes')
+Rama de proyectos de ('Hola Utnenes')
 #########################################################
 # 🚨 ATENCIÓN HOLAUTNenes 🚨
-# NO MODIFICAR NADA EN LA RAMA MAIN !!!
-# SOLO TRABAJAR EN SUS PROPIAS RAMAS
-# EL QUE TOQUE MAIN SE GANA UNA PATADA VIRTUAL ⚡
+# RAMA PARA SUBIR LOS TRABAJOS GRUPALES
+# SOLO PARA LA CARPETA GRUPAL, AQUI DEBEN SI DEBEN SOLICITAR EL `pull request`
 #########################################################
 
-# 1) Clonar el repo en una carpeta llamada HolaUTNenes
-git clone https://github.com/HotCode2025/-Hola-Utnenes---Segundo-Semestre.git HolaUTNenes
-cd HolaUTNenes
+# ¿Cómo agregar archivos?
+# 1) Ver ramas disponibles
+`git branch -a`
 
-# 2) Crear una nueva rama (cada uno la suya, con su nombre)
-git checkout -b rama_tunombre
+# 2) Cambiar a rama proyectos
+`git checkout Proyectos`
 
-# 3) Ver ramas disponibles
-git branch -a
+# 3) Hacemos un pull
+`git push` - asi actualizamos todo lo necesario antes de continuar
 
-# 4) Cambiar a otra rama
-git checkout rama_tunombre
+# 4) Subimos el archivo a la carpeta 
+Copiar y pegar en la carpeta (sea con windows o linux)
+
+# 5) Elegimos que archivo de la rama queremos "Modificar"
+`git add .` #Si queremos todos los archivos `
+`git add Nombre_Archivo_Especifico` #si queremos alguno en especifico
+
+# 6) Comentamos
+`git commit -m "Comentario sobre que subimos/modificamos"`
+
+# 7) Sincronizamos el repo online
+`git push`
+
+# 8) Contemplamos el infinito intentando entender que hicimos...
 
 #########################################################
 # 🚨 ANTES DE SUBIR CAMBIOS 🚨
 # HACER PULL PARA TRAER LO ÚLTIMO Y EVITAR CONFLICTOS
-#########################################################
-git pull origin main
-
-# 5) Agregar y confirmar cambios en TU rama
-git add .
-git commit -m "mensaje claro del cambio"
-
-# 6) Subir cambios (NUNCA A MAIN)
-git push origin rama_tunombre
-
 #########################################################
 # 🚨 COMANDOS ÚTILES DE CARPETAS Y ARCHIVOS 🚨
 #########################################################
@@ -52,4 +53,3 @@ rm archivo.txt
 # Eliminar carpeta (⚠ cuidado, borra todo adentro)
 rm -rf Carpeta
 -------------------------------------------------------
-# Zona de prueba del commit 1 - branch Gabriel
