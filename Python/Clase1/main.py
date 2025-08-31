@@ -1,5 +1,7 @@
 # lista = Florencia, Ariel, Natalia
+#Colecciones en Python
 
+#Las listas es lo que se conoce en otros lenguajes como arreglos o vectores
 nombres = ['Naty','Osvaldo','Lily','Ariel']
 print(nombres)
 
@@ -26,6 +28,12 @@ else:
 #Preguntamos cuantos elementos tiene una lista
 print(len(nombres)) #le pasamos como parametro la lista
 nombres.append('Marcelo')
+nombres.append([1, 2, 3])
+nombres.append(True)
+nombres.append(10.45)
+nombres.append([4, 5])
+nombres.append(7)
+print(nombres)
 print(nombres)
 
 #Insertar un elemento en un indice específico
