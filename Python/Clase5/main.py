@@ -1,16 +1,60 @@
-# This is a sample Python script.
+#Desempaquetado de listas o list unpacking
 
-# Press Mayús+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def show(name, lastName):
+    print(name+' '+lastName)
+person = ['Ariel', 'Betancud']
+show(person[0], person[1]) #Pasamos uno por uno los datos de la lista a la función
+show(*person)#Esto e slo mismo que lo anterior pero lo pasamos todo junto
+person2 = ('Osvaldo', 'Giodanini') #desempaquetamos a traves de una tupla
+show(*person2)
+person3 = {"lastName": "Lucero", "name": "Natalia"}#desempaquetamos a travez de un diccionario
+show(*person3)
 
+numbers = [1, 2, 3, 4, 5] #Aun con la lista vacia se va a ejercutar el else
+for n in numbers:
+    print(n)
+    if n == 3:
+        break #sta es la unica manera para que no se ejecute el else
+else:
+    print('Esto se termina')
+#list comprehension, lista de comprensión
+names = ["Paolo", "Rodrigo", "Lupe", "Pepe"]
+alongP = [p for p in names if p[0] == 'P'] #Esto regresa una nueva lista
+print(alongP)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+bottleC = [{"name": "Quilmes", "country": "Arg"},
+           {"name": "Corona", "country": "Mx"},
+           {"name": "Stella Artois", "country": "Belgium"},
+           ]
+Arg = [b for b in bottleC if b["country"] == "Arg"]
+print(Arg)
+print(bottleC)
 
+#Paso de Argumentos (funciones)
+def mi_funcion(name, lastName):
+    print("Saludos a todos los que ven a través del canal de Youtube")
+    print(f'Nombre: {name}, Apellido: {lastName}')
+mi_funcion("Jorge", "Lucero")
+mi_funcion("Ariel", "Betancud")
+mi_funcion("Analia", "Pedrosa")
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+#La palabra return en funciones
+#Creamos una funcion para sumar
+def sumar(a, b):
+    return a +b
+#resultado = sumar(78, 22)
+#print(f'El resultado de la suma es: {resultado}')
+print(f'El resultado de la suma es: {sumar(55, 45)}')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+def sumar2(a = 0, b = 0): #Le damos un valor por default
+    return a +b
+resultado = sumar2()
+print(f'El resultado de la suma es: {resultado}')
+print(f'Resultado de la suma: {sumar2(22, 66)}')
+
+#Argumentos, variables en funciones
+def listarNombres(*nombres): #Normalmente se utiliza: *args
+    for nombre in nombres: #se va a convertir en una tupla
+        print(nombre)
+listarNombres('Lucas', 'José', 'Claudia', 'Rosa', 'María')
+listarNombres('MArcos', 'Daniel', 'Romina', 'Pepe', 'Marcela', 'Carlos') #se van agregando los elementos como argumentos
