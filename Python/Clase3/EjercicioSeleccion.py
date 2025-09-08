@@ -7,3 +7,6 @@ seleccionArgentina = {
 }
 for valor in seleccionArgentina.values():
     print(valor)
+#Seguimos mostrando como recorrer un diccionario con el ciclo for
+for i in seleccionArgentina:
+    print(f'{i} -> {seleccionArgentina[i]}')
