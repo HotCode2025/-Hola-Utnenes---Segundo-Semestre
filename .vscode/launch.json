@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Ejercicio9",
+            "request": "launch",
+            "mainClass": "Clase5.Ejercicio9",
+            "projectName": "HolaUtnenes_fd90926d"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio8",
+            "request": "launch",
+            "mainClass": "Clase5.Ejercicio8",
+            "projectName": "HolaUtnenes_fd90926d"
+        },
+        {
+            "type": "java",
+            "name": "ciclos07",
+            "request": "launch",
+            "mainClass": "ciclos07",
+            "projectName": "HolaUtnenes_fd90926d"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ciclos06",
+            "request": "launch",
+            "mainClass": "ciclos06",
+            "projectName": "HolaUtnenes_fd90926d"
+        }
+    ]
+}
