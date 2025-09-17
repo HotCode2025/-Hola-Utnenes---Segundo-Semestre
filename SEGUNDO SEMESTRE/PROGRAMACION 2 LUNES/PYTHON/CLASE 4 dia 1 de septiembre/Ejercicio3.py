@@ -1,0 +1,16 @@
+# Clase 4 Ejercicio 3 Ordenar con la función sort
+# Introduzca un número 0, nuestro programa dejaría de insertar.
+# Por último, mostrar los números ordenados de menor a mayor
+
+lista = []
+salir = False
+
+while not salir:
+    numero = int(input('Digite un número: '))
+    if numero == 0:
+        salir = True
+    else:
+        lista.append(numero)
+
+lista.sort()  # La lista está ordenada con esta función
+print(f'\nLista ordenada: \n{lista}')
