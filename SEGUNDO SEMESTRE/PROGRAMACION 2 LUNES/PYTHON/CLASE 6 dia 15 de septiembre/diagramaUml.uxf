@@ -1,0 +1,21 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notesOsvaldo</help_text><element><id>UMLClass</id><coordinates><x>310</x><y>40</y><w>210</w><h>120</h></coordinates><panel_attributes>&lt;&lt;Persona&gt;&gt;
+--
+-nombre: str
+-apellido: str
+-edad: int
+--
+mostrar_detalle()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>160</y><w>30</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>UMLClass</id><coordinates><x>60</x><y>350</y><w>210</w><h>100</h></coordinates><panel_attributes>&lt;&lt;persona1:Persona&gt;&gt;
+
+--
+nombre: str = 'Ariel'
+apellido: str = 'Betancud'
+edad: int = 40
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>150</x><y>270</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>500</x><y>350</y><w>210</w><h>100</h></coordinates><panel_attributes>&lt;&lt;persona2: Persona&gt;
+
+--
+nombre: str = 'Osvaldo'
+apellido: str = 'Giordanini'
+edad: int = 45
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>600</x><y>270</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>150</x><y>260</y><w>280</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>260;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>260</y><w>220</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>10;20;200;20</additional_attributes></element></diagram>
