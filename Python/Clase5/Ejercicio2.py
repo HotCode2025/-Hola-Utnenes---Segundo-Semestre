@@ -12,3 +12,4 @@ def multiplicar(*args): #creamos función para multiplicar
 lista_numeros = [2, 3, 4, 5] #creamos lista de números
 #usamos para desempacar la lista y pasarlos como argumentos
 print(f'El total es: ', multiplicar(*lista_numeros)) #resultado final de la multiplicación de cada número de la lista al resultado
+

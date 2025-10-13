@@ -58,3 +58,49 @@ def listarNombres(*nombres): #Normalmente se utiliza: *args
         print(nombre)
 listarNombres('Lucas', 'José', 'Claudia', 'Rosa', 'María')
 listarNombres('MArcos', 'Daniel', 'Romina', 'Pepe', 'Marcela', 'Carlos') #se van agregando los elementos como argumentos
+
+def listarTerminos(**terminos):# Lo mas utilizado es **kwargs para recibir los argumentos
+    for llave, valor in terminos.items(): #kwargs significa: key word argument
+        print(f'{llave} : {valor}')
+
+listarTerminos() #Nada se va a mostrar
+listarTerminos(IDE='Integrated Develoment Enviroment', PK='Primary Key')
+listarTerminos(Nombre='Leonel Messi')
+
+def desplegarNombre(nombres):
+    for nombre in nombres:
+        print(nombre)
+nombres2 = ['Tito', 'Pedro', 'Carlos']
+desplegarNombre(nombres2)
+desplegarNombre('Carla')
+#desplegarNombre(10) #No es un objeto iterable
+desplegarNombre((10, )) #Lo convertimos a una tupla
+desplegarNombre([27, 55])# La convertimos en una lista
+
+#Funciones Recursivas
+def factorial(numero):
+    if numero == 1: #Caso base
+        return 1
+    else:
+        return numero * factorial(numero-1) #Caso recursivo
+
+resultado = factorial(5) #Lo hacemos con código duro
+print(f'El factorial del numero 5 es: {resultado}')
+
+#tarea: pedir al usuario que ingrese el número para calcular el factorial
+# Funciones Recursivas
+def factorial(numero):
+    if numero == 1:  # Caso base
+        return 1
+    else:
+        return numero * factorial(numero - 1)  # Caso recursivo
+
+# Pedir número al usuario
+num = int(input('Ingrese un número para calcular su factorial: '))
+
+# Verificar que sea positivo
+if num > 0:
+    resultado = factorial(num)
+    print(f'El factorial del número {num} es: {resultado}')
+else:
+    print('El número debe ser mayor que cero.')
