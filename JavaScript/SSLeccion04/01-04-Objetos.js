@@ -92,10 +92,42 @@ function Persona3(nombre = 'Luis', apellido, email){//consltructor
 }
 let padre = new Persona3('Leo', 'López', 'lopezl@gmail.com');
 padre.nombre = 'Luis'
+padre.telefono = '5465641'; //Una propiedad exclusiva del objeto padre
 console.log(padre);
 console.log(padre.nombreCompleto());
 let madre = new Persona3('Laura', 'Contreras', 'contreral@gmail.com');
 console.log(madre);
+console.log(madre.telefono); //La propuedad no esta definida
 console.log(madre.nombreCompleto());
 
 
+//Uso de prototype
+Persona3.prototype.telefono = '564646464';
+console.log(padre);
+console.log(madre);
+madre.telefono = '64564564654654';
+console.log(madre.telefono);
+
+
+//Uso de call
+let Persona4 = {
+    nombre: 'Juan',
+    apellido: 'Pérez',
+    nombreCompleto2: function(título, teléfono){
+        return título+': '+this.nombre+' '+this.apellido+' '+teléfono;
+        //return this.nombre+' '+this.apellido;
+    }
+
+}
+
+let Persona5 = {
+    nombre: 'Carlos',
+    apellido: 'Lara',
+    
+}
+console.log(Persona4.nombreCompleto2('Lic.', '65456465'));
+console.log(Persona4.nombreCompleto2.call(Persona5, 'Ing.', '654564564'));
+
+//Método Apply
+let arreglo = ['Ing.', '5456464'];
+console.log(Persona4.nombreCompleto2.apply(Persona5, arreglo));
