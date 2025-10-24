@@ -22,6 +22,34 @@ class Persona2:
         print('UTILIZANDO EL SETTER')
         print('-------------------------------')
         self._nombre = nombre
+    
+    @property
+    def apellido(self): # Metodo Getter
+        print('-------------------------------')
+        print('UTILIZANDO EL GETTER')
+        print('-------------------------------')
+        return self._apellido
+    
+    @apellido.setter
+    def nomapellidobre(self,apellido): # Metodo Setter
+        print('-------------------------------')
+        print('UTILIZANDO EL SETTER')
+        print('-------------------------------')
+        self.apellido = apellido
+    
+    @property
+    def edad(self): # Metodo Getter
+        print('-------------------------------')
+        print('UTILIZANDO EL GETTER')
+        print('-------------------------------')
+        return self._edad
+    
+    @edad.setter
+    def edad(self,edad): # Metodo Setter
+        print('-------------------------------')
+        print('UTILIZANDO EL SETTER')
+        print('-------------------------------')
+        self._edad = edad
 
 persona1 = Persona2('Otar', 'Kebadze' , 35)
 # print(persona1._nombre) 
@@ -70,3 +98,4 @@ print(persona4.nombre)
 persona4.nombre = 'Amelia'
 
 print(persona4.mostrar_detalles())
+
