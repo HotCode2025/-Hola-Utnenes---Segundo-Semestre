@@ -281,7 +281,7 @@ const telefonoAmelia = '📞 Telefono Personal: +54 2604613741'
 <style scoped>
 h1{
     font-size: 2.5rem;
-
+    margin-top: 2rem;
 }
 
 h3{
@@ -329,4 +329,9 @@ p{
     box-shadow: 0 0 5px rgba(251, 249, 249, 0.934);
 }
 
+@media (max-width: 768px) {
+    h1{
+    margin-top: 12rem;
+}
+}
 </style>

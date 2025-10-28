@@ -23,30 +23,62 @@ const navegacion = ref([
 
 <style scoped>
 .navbar {
-  color: red;
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Los enlaces (<a>) suelen tener una regla global 'a { color: ... }' que tiene
-   prioridad sobre el color heredado del contenedor. Para que los enlaces dentro
-   de la navbar se vean con el color deseado, dirigimos la regla a los items o
-   a los enlaces dentro de .navbar. */
-.navbar .navbar-item,
-.navbar {
-  background-color: var(--vt-c-indigo);
-  color: #fff;
-  padding: 0.5rem 1rem;
-  align-items: center;
-}
-.navbar-items {
-  color: #fff;
-  text-decoration: none;
-  margin-right: 1rem;
-}
 .navbar-menu {
   display: flex;
   justify-content: flex-end;
+  max-width: 1200px;
+  margin: 0 auto;
 }
+
 .navbar-list {
+  display: flex;
   list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+}
+
+.navbar-item {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.navbar-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 768px) {
+  .navbar-list {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navbar-menu {
+    justify-content: center;
+  }
+
+  .navbar-item {
+    width: 100%;
+    text-align: center;
+    margin: 0.25rem 0;
+  }
 }
 </style>
