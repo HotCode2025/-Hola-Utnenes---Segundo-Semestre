@@ -1,8 +1,8 @@
 <script setup>
-import {red} from 'vue';
+import {ref} from 'vue';
 const titulo = 'Estudiantes Para Desarrolladores Full Stack';
 const fecha = 'Enero 2025 - Enero 2027';
-const experiencias = red([
+const experiencias = ref([
     {id: 1 , src: '/src/assets/estudiante.png', parrafo : 'Primere Semestre con nuevas rutas de conocimiento en el ambito teccnologico...' },
     {id: 2 , src: '/src/assets/estudiante.png', parrafo : 'Segundo semestre asentando conocimientos previos, mas conceptos nuevos aplicados de la maneera mas profesional posible...' },
     {id: 3 , src: '/src/assets/estudiante.png', parrafo : 'Esperando tercer semestre con ansias...' },
