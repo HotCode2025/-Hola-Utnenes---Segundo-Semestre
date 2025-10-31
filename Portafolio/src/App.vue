@@ -9,7 +9,7 @@ import NavBar from './components/NavBar.vue'
 </script>
 
 <template>
-  <header>
+  <header id="top">
             <!--        BARRA DE NAVEGACION      -->
                 <NavBar />
             <!--        TARJETAS DE PRESENTACION    -->
@@ -37,8 +37,23 @@ import NavBar from './components/NavBar.vue'
       <ComponenteIntereses />
     </section>
   </main>
+  <footer>
+    <a href="#top"> Inicio </a>
+    <p> UTNENES - Cohoter 2025 UTN San Rafael </p>
+  </footer>
 </template>
 
 <style scoped>
-
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    font-size:1.3rem;
+}
+h2{
+    width: 100%;
+    text-align: center;
+    margin: 25px;
+}
 </style>
