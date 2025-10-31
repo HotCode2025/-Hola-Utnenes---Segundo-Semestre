@@ -20,9 +20,9 @@ const telefonoOtar = '📞 Telefono Personal: +5426574154452'
 
 //                          GABRIEL
 
-const nombreGabriel ='Otar Kebadze';
+const nombreGabriel ='Gabriel Moya';
 const descripcionGabriel ='Técnico Universitario en Programacion - UTN / FullStack MERN ';
-const residenciaGabriel = 'Ciudad - Mendoza , Argentina';
+const residenciaGabriel = 'Malargue - Mendoza , Argentina';
 const presentacionGabriel = 'Amante de la tecnologia, futuro tecnico en programacion. Bienvenidos al portafolio de UTNENES';
 const redesSocialesGabriel = [
     {id:1, nombre:'Linkedin', src: linkedin,url:'https://www.google.com.ar'},
@@ -30,11 +30,11 @@ const redesSocialesGabriel = [
     {id:3, nombre:'Github', src: github,url:'https://www.google.com.ar'},
     {id:4, nombre:'linkedin', src: resume,url:'https://www.google.com.ar'},
 ];
-const telefonoGabriel = '📞 Telefono Personal: +5426574154452'
+const telefonoGabriel = '📞 Telefono Personal: +542645245452'
 
 //                          JOACO
 
-const nombreJoaco ='Otar Kebadze';
+const nombreJoaco ='Joaquin Ibañez';
 const descripcionJoaco ='Técnico Universitario en Programacion - UTN / FullStack MERN ';
 const residenciaJoaco = 'Ciudad - Mendoza , Argentina';
 const presentacionJoaco = 'Amante de la tecnologia, futuro tecnico en programacion. Bienvenidos al portafolio de UTNENES';
@@ -48,7 +48,7 @@ const telefonoJoaco = '📞 Telefono Personal: +5426574154452'
 
 //                          FERNANDO
 
-const nombreFernando ='Otar Kebadze';
+const nombreFernando ='Fernando Figueroa';
 const descripcionFernando ='Técnico Universitario en Programacion - UTN / FullStack MERN ';
 const residenciaFernando = 'Ciudad - Mendoza , Argentina';
 const presentacionFernando = 'Amante de la tecnologia, futuro tecnico en programacion. Bienvenidos al portafolio de UTNENES';
@@ -62,9 +62,9 @@ const telefonoFernando = '📞 Telefono Personal: +5426574154452'
 
 //                          FERNANDA
 
-const nombreFernanda ='Otar Kebadze';
-const descripcionFernanda ='Técnico Universitario en Programacion - UTN / FullStack MERN ';
-const residenciaFernanda = 'Ciudad - Mendoza , Argentina';
+const nombreFernanda ='Fernanda Diaz';
+const descripcionFernanda ="Estudiante de Programación. Modista.";
+const residenciaFernanda = 'Tupungato - Mendoza , Argentina';
 const presentacionFernanda = 'Amante de la tecnologia, futuro tecnico en programacion. Bienvenidos al portafolio de UTNENES';
 const redesSocialesFernanda = [
     {id:1, nombre:'Linkedin', src: linkedin,url:'https://www.google.com.ar'},
@@ -72,7 +72,7 @@ const redesSocialesFernanda = [
     {id:3, nombre:'Github', src: github,url:'https://www.google.com.ar'},
     {id:4, nombre:'linkedin', src: resume,url:'https://www.google.com.ar'},
 ];
-const telefonoFernanda = '📞 Telefono Personal: +5426574154452'
+const telefonoFernanda = '📞 Telefono Personal: +542622-364640';
 
 //                          FLORENCIA
 
@@ -90,7 +90,7 @@ const telefonoFlorencia = '📞 Telefono Personal: +5426574154452'
 
 //                          EMMANUEL
 
-const nombreEmmanuel ='Otar Kebadze';
+const nombreEmmanuel ='Emannuel Poletto';
 const descripcionEmmanuel ='Técnico Universitario en Programacion - UTN / FullStack MERN ';
 const residenciaEmmanuel  = 'Ciudad - Mendoza , Argentina';
 const presentacionEmmanuel  = 'Amante de la tecnologia, futuro tecnico en programacion. Bienvenidos al portafolio de UTNENES';
@@ -104,7 +104,7 @@ const telefonoEmmanuel  = '📞 Telefono Personal: +5426574154452'
 
 //                          SERENA 
 
-const nombreSerena ='Otar Kebadze';
+const nombreSerena ='Serena Olmedo';
 const descripcionSerena ='Técnico Universitario en Programacion - UTN / FullStack MERN ';
 const residenciaSerena = 'Ciudad - Mendoza , Argentina';
 const presentacionSerena = 'Amante de la tecnologia, futuro tecnico en programacion. Bienvenidos al portafolio de UTNENES';
