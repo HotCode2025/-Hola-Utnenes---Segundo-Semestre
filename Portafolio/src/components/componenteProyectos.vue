@@ -5,7 +5,7 @@ import imagenSrc from '/src/assets/proyecto.jpg';
 import {ref} from 'vue';
 
 const proyectos = ref([
-    {id:'1' , titulo:'Primer Semestre' , descripcion :'Portafolio Primer semestre Utnenes',linkPagina:'https://otarkebadze.github.io/utnenes-portfolio', linkGithub:'https://github.com/OtarKebadze/utnenes-portfolio', img:'/src/assets/proyecto.jpg'},
+    {id:'1' , titulo:'Primer Semestre' , descripcion :'Portafolio Primer semestre Utnenes',linkPagina:'https://otarkebadze.github.io/utnenes-portfolio', linkGithub:'https://github.com/OtarKebadze/utnenes-portfolio', img:imagenSrc},
     {id:'2' , titulo:'Segundo Semestre' , descripcion :'Portafolio Segundo Semestre Utnenes',linkPagina:'#blank', linkGithub:'#blank', img:imagenSrc},
 ])
 </script>
