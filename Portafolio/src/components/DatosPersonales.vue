@@ -1,5 +1,9 @@
 <script setup>
-
+//                       IMPORTACIO0NES
+import linkedin from '/src/assets/linkedin.png';
+import instagram from '/src/assets/instagram.png';
+import github from '/src/assets/github.png';
+import resume from '/src/assets/resume.png';
 //                          OTAR
 
 const nombreOtar ='Otar Kebadze';
@@ -7,10 +11,10 @@ const descripcionOtar ='Técnico Universitario en Programacion - UTN / FullStack
 const residenciaOtar = 'Ciudad - Mendoza , Argentina';
 const presentacionOtar = 'Amante de la tecnologia, futuro tecnico en programacion. Bienvenidos al portafolio de UTNENES';
 const redesSocialesOtar = [
-    {id:1, nombre:'Linkedin', src: 'src/assets/linkedin.png',url:'https://www.google.com.ar'},
-    {id:2, nombre:'Instagram', src: 'src/assets/instagram.png',url:'https://www.google.com.ar'},
-    {id:3, nombre:'Github', src: 'src/assets/github.png',url:'https://www.google.com.ar'},
-    {id:4, nombre:'linkedin', src: 'src/assets/resume.png',url:'https://www.google.com.ar'},
+    {id:1, nombre:'Linkedin', src: linkedin,url:'https://www.google.com.ar'},
+    {id:2, nombre:'Instagram', src: instagram,url:'https://www.google.com.ar'},
+    {id:3, nombre:'Github', src: github,url:'https://www.google.com.ar'},
+    {id:4, nombre:'linkedin', src: resume,url:'https://www.google.com.ar'},
 ];
 const telefonoOtar = '📞 Telefono Personal: +5426574154452'
 
@@ -21,10 +25,10 @@ const descripcionGabriel ='Técnico Universitario en Programacion - UTN / FullSt
 const residenciaGabriel = 'Ciudad - Mendoza , Argentina';
 const presentacionGabriel = 'Amante de la tecnologia, futuro tecnico en programacion. Bienvenidos al portafolio de UTNENES';
 const redesSocialesGabriel = [
-    {id:1, nombre:'Linkedin', src: 'src/assets/linkedin.png',url:'https://www.google.com.ar'},
-    {id:2, nombre:'Instagram', src: 'src/assets/instagram.png',url:'https://www.google.com.ar'},
-    {id:3, nombre:'Github', src: 'src/assets/github.png',url:'https://www.google.com.ar'},
-    {id:4, nombre:'linkedin', src: 'src/assets/resume.png',url:'https://www.google.com.ar'},
+    {id:1, nombre:'Linkedin', src: linkedin,url:'https://www.google.com.ar'},
+    {id:2, nombre:'Instagram', src: instagram,url:'https://www.google.com.ar'},
+    {id:3, nombre:'Github', src: github,url:'https://www.google.com.ar'},
+    {id:4, nombre:'linkedin', src: resume,url:'https://www.google.com.ar'},
 ];
 const telefonoGabriel = '📞 Telefono Personal: +5426574154452'
 
@@ -35,10 +39,10 @@ const descripcionJoaco ='Técnico Universitario en Programacion - UTN / FullStac
 const residenciaJoaco = 'Ciudad - Mendoza , Argentina';
 const presentacionJoaco = 'Amante de la tecnologia, futuro tecnico en programacion. Bienvenidos al portafolio de UTNENES';
 const redesSocialesJoaco = [
-    {id:1, nombre:'Linkedin', src: 'src/assets/linkedin.png',url:'https://www.google.com.ar'},
-    {id:2, nombre:'Instagram', src: 'src/assets/instagram.png',url:'https://www.google.com.ar'},
-    {id:3, nombre:'Github', src: 'src/assets/github.png',url:'https://www.google.com.ar'},
-    {id:4, nombre:'linkedin', src: 'src/assets/resume.png',url:'https://www.google.com.ar'},
+    {id:1, nombre:'Linkedin', src: linkedin,url:'https://www.google.com.ar'},
+    {id:2, nombre:'Instagram', src: instagram,url:'https://www.google.com.ar'},
+    {id:3, nombre:'Github', src: github,url:'https://www.google.com.ar'},
+    {id:4, nombre:'linkedin', src: resume,url:'https://www.google.com.ar'},
 ];
 const telefonoJoaco = '📞 Telefono Personal: +5426574154452'
 
@@ -49,10 +53,10 @@ const descripcionFernando ='Técnico Universitario en Programacion - UTN / FullS
 const residenciaFernando = 'Ciudad - Mendoza , Argentina';
 const presentacionFernando = 'Amante de la tecnologia, futuro tecnico en programacion. Bienvenidos al portafolio de UTNENES';
 const redesSocialesFernando = [
-    {id:1, nombre:'Linkedin', src: 'src/assets/linkedin.png',url:'https://www.google.com.ar'},
-    {id:2, nombre:'Instagram', src: 'src/assets/instagram.png',url:'https://www.google.com.ar'},
-    {id:3, nombre:'Github', src: 'src/assets/github.png',url:'https://www.google.com.ar'},
-    {id:4, nombre:'linkedin', src: 'src/assets/resume.png',url:'https://www.google.com.ar'},
+    {id:1, nombre:'Linkedin', src: linkedin,url:'https://www.google.com.ar'},
+    {id:2, nombre:'Instagram', src: instagram,url:'https://www.google.com.ar'},
+    {id:3, nombre:'Github', src: github,url:'https://www.google.com.ar'},
+    {id:4, nombre:'linkedin', src: resume,url:'https://www.google.com.ar'},
 ];
 const telefonoFernando = '📞 Telefono Personal: +5426574154452'
 
@@ -63,10 +67,10 @@ const descripcionFernanda ='Técnico Universitario en Programacion - UTN / FullS
 const residenciaFernanda = 'Ciudad - Mendoza , Argentina';
 const presentacionFernanda = 'Amante de la tecnologia, futuro tecnico en programacion. Bienvenidos al portafolio de UTNENES';
 const redesSocialesFernanda = [
-    {id:1, nombre:'Linkedin', src: 'src/assets/linkedin.png',url:'https://www.google.com.ar'},
-    {id:2, nombre:'Instagram', src: 'src/assets/instagram.png',url:'https://www.google.com.ar'},
-    {id:3, nombre:'Github', src: 'src/assets/github.png',url:'https://www.google.com.ar'},
-    {id:4, nombre:'linkedin', src: 'src/assets/resume.png',url:'https://www.google.com.ar'},
+    {id:1, nombre:'Linkedin', src: linkedin,url:'https://www.google.com.ar'},
+    {id:2, nombre:'Instagram', src: instagram,url:'https://www.google.com.ar'},
+    {id:3, nombre:'Github', src: github,url:'https://www.google.com.ar'},
+    {id:4, nombre:'linkedin', src: resume,url:'https://www.google.com.ar'},
 ];
 const telefonoFernanda = '📞 Telefono Personal: +5426574154452'
 
@@ -77,10 +81,10 @@ const descripcionFlorencia ='Técnico Universitario en Programacion - UTN / Full
 const residenciaFlorencia = 'San Rafael - Mendoza , Argentina';
 const presentacionFlorencia = 'Amante de la tecnologia, futuro tecnico en programacion. Bienvenidos al portafolio de UTNENES';
 const redesSocialesFlorencia = [
-    {id:1, nombre:'Linkedin', src: 'src/assets/linkedin.png',url:'https://www.google.com.ar'},
-    {id:2, nombre:'Instagram', src: 'src/assets/instagram.png',url:'https://www.google.com.ar'},
-    {id:3, nombre:'Github', src: 'src/assets/github.png',url:'https://www.google.com.ar'},
-    {id:4, nombre:'linkedin', src: 'src/assets/resume.png',url:'https://www.google.com.ar'},
+    {id:1, nombre:'Linkedin', src: linkedin,url:'https://www.google.com.ar'},
+    {id:2, nombre:'Instagram', src: instagram,url:'https://www.google.com.ar'},
+    {id:3, nombre:'Github', src: github,url:'https://www.google.com.ar'},
+    {id:4, nombre:'linkedin', src: resume,url:'https://www.google.com.ar'},
 ];
 const telefonoFlorencia = '📞 Telefono Personal: +5426574154452'
 
@@ -91,10 +95,10 @@ const descripcionEmmanuel ='Técnico Universitario en Programacion - UTN / FullS
 const residenciaEmmanuel  = 'Ciudad - Mendoza , Argentina';
 const presentacionEmmanuel  = 'Amante de la tecnologia, futuro tecnico en programacion. Bienvenidos al portafolio de UTNENES';
 const redesSocialesEmmanuel  = [
-    {id:1, nombre:'Linkedin', src: 'src/assets/linkedin.png',url:'https://www.google.com.ar'},
-    {id:2, nombre:'Instagram', src: 'src/assets/instagram.png',url:'https://www.google.com.ar'},
-    {id:3, nombre:'Github', src: 'src/assets/github.png',url:'https://www.google.com.ar'},
-    {id:4, nombre:'linkedin', src: 'src/assets/resume.png',url:'https://www.google.com.ar'},
+    {id:1, nombre:'Linkedin', src: linkedin,url:'https://www.google.com.ar'},
+    {id:2, nombre:'Instagram', src: instagram,url:'https://www.google.com.ar'},
+    {id:3, nombre:'Github', src: github,url:'https://www.google.com.ar'},
+    {id:4, nombre:'linkedin', src: resume,url:'https://www.google.com.ar'},
 ];
 const telefonoEmmanuel  = '📞 Telefono Personal: +5426574154452'
 
@@ -105,10 +109,10 @@ const descripcionSerena ='Técnico Universitario en Programacion - UTN / FullSta
 const residenciaSerena = 'Ciudad - Mendoza , Argentina';
 const presentacionSerena = 'Amante de la tecnologia, futuro tecnico en programacion. Bienvenidos al portafolio de UTNENES';
 const redesSocialesSerena = [
-    {id:1, nombre:'Linkedin', src: 'src/assets/linkedin.png',url:'https://www.google.com.ar'},
-    {id:2, nombre:'Instagram', src: 'src/assets/instagram.png',url:'https://www.google.com.ar'},
-    {id:3, nombre:'Github', src: 'src/assets/github.png',url:'https://www.google.com.ar'},
-    {id:4, nombre:'linkedin', src: 'src/assets/resume.png',url:'https://www.google.com.ar'},
+    {id:1, nombre:'Linkedin', src: linkedin,url:'https://www.google.com.ar'},
+    {id:2, nombre:'Instagram', src: instagram,url:'https://www.google.com.ar'},
+    {id:3, nombre:'Github', src: github,url:'https://www.google.com.ar'},
+    {id:4, nombre:'linkedin', src: resume,url:'https://www.google.com.ar'},
 ];
 const telefonoSerena = '📞 Telefono Personal: +5426574154452'
 
@@ -119,10 +123,10 @@ const descripcionMatias='Desarrollador Web Frontend / Estudiante de la Tecnicatu
 const residenciaMatias = 'Tupungato - Mendoza';
 const presentacionMatias = 'Amante de la tecnologia, futuro tecnico en programacion. Bienvenidos al portafolio de UTNENES';
 const redesSocialesMatias = [
-    {id:1, nombre:'Linkedin', src: 'src/assets/linkedin.png',url:'https://www.google.com.ar'},
-    {id:2, nombre:'Instagram', src: 'src/assets/instagram.png',url:'https://www.google.com.ar'},
-    {id:3, nombre:'Github', src: 'src/assets/github.png',url:'https://www.google.com.ar'},
-    {id:4, nombre:'linkedin', src: 'src/assets/resume.png',url:'https://www.google.com.ar'},
+    {id:1, nombre:'Linkedin', src: linkedin,url:'https://www.google.com.ar'},
+    {id:2, nombre:'Instagram', src: instagram,url:'https://www.google.com.ar'},
+    {id:3, nombre:'Github', src: github,url:'https://www.google.com.ar'},
+    {id:4, nombre:'linkedin', src: resume,url:'https://www.google.com.ar'},
 ];
 const telefonoMatias = '📞 Telefono Personal: +54 2622-644136'
 
@@ -133,10 +137,10 @@ const descripcionAmelia='Técnico Universitario en Programacion - UTN / FullStac
 const residenciaAmelia = 'San Rafael - Mendoza , Argentina';
 const presentacionAmelia = 'Ve al borde del precipicio y salta ... construyete alas mientras caes ';
 const redesSocialesAmelia = [
-    {id:1, nombre:'Linkedin', src: 'src/assets/linkedin.png',url:'https://www.google.com.ar'},
-    {id:2, nombre:'Instagram', src: 'src/assets/instagram.png',url:'https://www.google.com.ar'},
-    {id:3, nombre:'Github', src: 'src/assets/github.png',url:'https://www.google.com.ar'},
-    {id:4, nombre:'linkedin', src: 'src/assets/resume.png',url:'https://www.google.com.ar'},
+    {id:1, nombre:'Linkedin', src: linkedin,url:'https://www.google.com.ar'},
+    {id:2, nombre:'Instagram', src: instagram,url:'https://www.google.com.ar'},
+    {id:3, nombre:'Github', src: github,url:'https://www.google.com.ar'},
+    {id:4, nombre:'linkedin', src: resume,url:'https://www.google.com.ar'},
 ];
 const telefonoAmelia = '📞 Telefono Personal: +54 2604613741'
 

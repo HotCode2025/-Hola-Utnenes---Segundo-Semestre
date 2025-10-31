@@ -1,4 +1,25 @@
 <script setup>
+//                  IMPORTACIONES
+
+import iconPython from "/src/components/icons/python.png";
+import iconJavascript from "/src/components/icons/js.png";
+import iconJava from "/src/components/icons/java.png";
+import iconHtmlCss from "/src/components/icons/html-css.png";
+
+import iconVue from "/src/components/icons/vue.png";
+import iconReact from "/src/components/icons/react.png";
+import iconBootstrap from "/src/components/icons/bootstrap.png";
+
+import iconGit from "/src/components/icons/git.png";
+import iconGithub from "/src/components/icons/github.png";
+import iconFigma from "/src/components/icons/figma.png";
+import iconVisual from "/src/components/icons/visual.png";
+
+import iconMysql from "/src/components/icons/mysql.png";
+import iconMongo from "/src/components/icons/mongo.png";
+import iconPostgre from "/src/components/icons/postgre.png";
+import iconEspañol from "/src/components/icons/español.png";
+import iconIngles from "/src/components/icons/ingles.png";
 import { ref } from "vue";
 
 // estructura correcta: `habilidades` es un array de categorías,
@@ -8,46 +29,46 @@ const habilidades = ref([
     id: 1,
     nombre: "Lenguajes De Programacion",
     habilidad: [
-      { id: 1, nombre: "Python", nivel: "MEDIO", src: "/src/components/icons/python.png" },
-      { id: 2, nombre: "Javascript", nivel: "MEDIO", src: "/src/components/icons/js.png" },
-      { id: 3, nombre: "Java", nivel: "MEDIO", src: "/src/components/icons/java.png" },
-      { id: 4, nombre: "HTML / CSS", nivel: "MEDIO", src: "/src/components/icons/html-css.png" },
+      { id: 1, nombre: "Python", nivel: "MEDIO", src: iconPython },
+      { id: 2, nombre: "Javascript", nivel: "MEDIO", src: iconJavascript },
+      { id: 3, nombre: "Java", nivel: "MEDIO", src: iconJava },
+      { id: 4, nombre: "HTML / CSS", nivel: "MEDIO", src: iconHtmlCss },
     ],
   },
   {
     id: 2,
     nombre: "Frameworks Y Librerias",
     habilidad: [
-      { id: 1, nombre: "Vue", nivel: "MEDIO", src: "/src/components/icons/vue.png" },
-      { id: 2, nombre: "React", nivel: "MEDIO", src: "/src/components/icons/react.png" },
-      { id: 3, nombre: "Bootstrap", nivel: "MEDIO", src: "/src/components/icons/bootstrap.png" }
+      { id: 1, nombre: "Vue", nivel: "MEDIO", src: iconVue },
+      { id: 2, nombre: "React", nivel: "MEDIO", src: iconReact },
+      { id: 3, nombre: "Bootstrap", nivel: "MEDIO", src: iconBootstrap },
     ],
   },
   {
     id: 3,
     nombre: "Herramientas Y Software",
     habilidad: [
-      { id: 1, nombre: "Git", nivel: "NORMAL", src: "/src/components/icons/git.png" },
-      { id: 2, nombre: "Github", nivel: "NORMAL", src: "/src/components/icons/github.png" },
-      { id: 3, nombre: "Figma", nivel: "NORMAL", src: "/src/components/icons/figma.png" },
-      { id: 4, nombre: "Visual Studio Code", nivel: "AVANZADO", src: "/src/components/icons/visual.png" },
+      { id: 1, nombre: "Git", nivel: "NORMAL", src: iconGit },
+      { id: 2, nombre: "Github", nivel: "NORMAL", src: iconGithub },
+      { id: 3, nombre: "Figma", nivel: "NORMAL", src: iconFigma },
+      { id: 4, nombre: "Visual Studio Code", nivel: "AVANZADO", src: iconVisual },
     ],
   },
   {
     id: 4,
     nombre: "Bases De Datos",
     habilidad: [
-      { id: 1, nombre: "MySql", nivel: "MEDIO", src: "/src/components/icons/mysql.png" },
-      { id: 2, nombre: "MongoDb", nivel: "MEDIO", src: "/src/components/icons/mongo.png" },
-      { id: 4, nombre: "PostgreSQL", nivel: "BASICO", src: "/src/components/icons/postgre.png" },
+      { id: 1, nombre: "MySql", nivel: "MEDIO", src: iconMysql },
+      { id: 2, nombre: "MongoDb", nivel: "MEDIO", src: iconMongo },
+      { id: 4, nombre: "PostgreSQL", nivel: "BASICO", src: iconPostgre },
     ],
   },
   {
     id: 5,
     nombre: "Idiomas",
     habilidad: [
-      { id: 1, nombre: "Español", nivel: "AVANZADO", src: "/src/components/icons/español.png"},
-      { id: 2, nombre: "Ingles", nivel: "MEDIO", src: "/src/components/icons/ingles.png" },
+      { id: 1, nombre: "Español", nivel: "AVANZADO", src: iconEspañol },
+      { id: 2, nombre: "Ingles", nivel: "MEDIO", src: iconIngles },
     ],
   },
 ]);

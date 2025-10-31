@@ -1,13 +1,16 @@
 <script setup>
-import {ref} from 'vue';
+import { ref } from 'vue';
+import iconEstudiante from '/src/assets/estudiante.png';
+
 const titulo = 'Estudiantes Para Desarrolladores Full Stack';
 const fecha = 'Enero 2025 - Enero 2027';
+
 const experiencias = ref([
-    {id: 1 , src: '/src/assets/estudiante.png', parrafo : 'Primere Semestre con nuevas rutas de conocimiento en el ambito teccnologico...' },
-    {id: 2 , src: '/src/assets/estudiante.png', parrafo : 'Segundo semestre asentando conocimientos previos, mas conceptos nuevos aplicados de la maneera mas profesional posible...' },
-    {id: 3 , src: '/src/assets/estudiante.png', parrafo : 'Esperando tercer semestre con ansias...' },
-    {id: 4 , src: '/src/assets/estudiante.png', parrafo : 'Esperando cuarto semestre con ansias...' },
-])
+  { id: 1, src: iconEstudiante, parrafo: 'Primere Semestre con nuevas rutas de conocimiento en el ambito teccnologico...' },
+  { id: 2, src: iconEstudiante, parrafo: 'Segundo semestre asentando conocimientos previos, mas conceptos nuevos aplicados de la maneera mas profesional posible...' },
+  { id: 3, src: iconEstudiante, parrafo: 'Esperando tercer semestre con ansias...' },
+  { id: 4, src: iconEstudiante, parrafo: 'Esperando cuarto semestre con ansias...' },
+]);
 </script>
 
 <template>
