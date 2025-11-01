@@ -30,6 +30,7 @@ public class Testeo {
         System.out.println("Fecha de registro: " + cliente.getFechaRegistro());
         System.out.println("¿Es VIP?: " + cliente.isVip());
         cliente.setVip(false);
+        System.out.println("-----------------------------------------------------");
         System.out.println("¿Es VIP ahora?: " + cliente.isVip());
     }
 }
