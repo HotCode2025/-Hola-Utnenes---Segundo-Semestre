@@ -1,0 +1,68 @@
+:root {
+  /* Colores base */
+  --color-bg: #0f0f0f;           /* Fondo negro carbón */
+  --color-primary: #a3e635;      /* Verde ácido */
+  --color-secondary: #e5e7eb;    /* Gris claro */
+  --color-hover: #d9f99d;        /* Verde lima suave */
+
+  /* Variables semánticas usando los colores base */
+  --color-background: var(--color-bg);
+  --color-background-soft: #1a1a1a;      /* Fondo suavizado */
+  --color-background-mute: #2e2e2e;      /* Fondo atenuado */
+  --color-border: #3f3f3f;               /* Borde neutro */
+  --color-border-hover: var(--color-primary); /* Borde en hover con verde ácido */
+  --color-heading: var(--color-primary);      /* Títulos en verde ácido */
+  --color-text: var(--color-secondary);       /* Texto gris claro */
+
+  /* Tipografía y utilidades */
+  --font-main: 'Inter', sans-serif;
+  --border-radius: 0.5rem;
+  --transition-fast: 0.2s ease-in-out;
+  --section-gap: 160px;
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-main);
+}
+
+a {
+  color: var(--color-primary);
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--color-hover);
+}
+
+/* Efecto de fondo */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100%;
+  background: radial-gradient(circle at center, #a3e63522, transparent 70%);
+  pointer-events: none;
+  animation: pulse 4s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 0.5; }
+}
+
+li {
+  list-style: none;
+}
