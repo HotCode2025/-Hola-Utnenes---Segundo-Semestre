@@ -37,4 +37,3 @@ public class Aritmetica {
         return a + b;
     }
 }
-

@@ -74,4 +74,3 @@ public void imprimir(Persona persona){
     System.out.println("Impresión del objeto actual (this). "+this);
     }
 }
-        
