@@ -11,6 +11,7 @@ public class Ejercicio_ciclos_11 {
             producto *= i;
             System.out.println("impar #" + (contador + 1) + ": " + i);
         }
+        sc.close();
 
         System.out.println("resultado final: " + producto);
     }
