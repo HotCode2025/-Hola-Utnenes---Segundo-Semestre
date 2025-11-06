@@ -118,16 +118,16 @@ console.log(cliente1.toString());
 
 // PRUEBA CLASE PERSONA
 
-let persona1 = new Persona('Juan', 'Perez', 32);
-console.log(persona1.toString());
+let persona3 = new Persona('Juan', 'Perez', 32);
+console.log(persona3.toString());
 
-let persona2 = new Persona('Carla', 'Ortega', 22);
-console.log(persona2.toString());
+let persona4 = new Persona('Carla', 'Ortega', 22);
+console.log(persona4.toString());
 
 // ==============================
 // Prueba clase Empleado
-let empleado1 = new Empleado('Pedro', 'Román', 18, 5000);
-console.log(empleado1.toString());
+let empleado3 = new Empleado('Pedro', 'Román', 18, 5000);
+console.log(empleado3.toString());
 
-let empleado2 = new Empleado('Jonas', 'Torres', 30, 7000);
-console.log(empleado2.toString());
+let empleado4 = new Empleado('Jonas', 'Torres', 30, 7000);
+console.log(empleado4.toString());

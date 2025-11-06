@@ -1,0 +1,1 @@
+Clase 1 Integrada a clase 2

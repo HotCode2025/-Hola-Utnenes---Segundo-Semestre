@@ -118,8 +118,8 @@ console.log(cliente1.toString());
 
 // PRUEBA CLASE PERSONA
 
-let persona1 = new Persona('Juan', 'Perez', 32);
-console.log(persona1.toString());
+let persona3 = new Persona('Juan', 'Perez', 32);
+console.log(persona3.toString());
 
-let persona2 = new Persona('Carla', 'Ortega', 22);
-console.log(persona2.toString());
+let persona4 = new Persona('Carla', 'Ortega', 22);
+console.log(persona4.toString());

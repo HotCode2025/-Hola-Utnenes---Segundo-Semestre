@@ -109,20 +109,20 @@ let persona2 = new Persona('Ana', 'Gómez', 30);
 console.log(persona1.toString());
 console.log(persona2.toString());
 
-let empleado1 = new Empleado('Carlos', 'López', 28, 50000);
-console.log(empleado1.toString());
+let empleado3 = new Empleado('Carlos', 'López', 28, 50000);
+console.log(empleado3.toString());
 
-let cliente1 = new Cliente('María', 'Díaz', 22, new Date());
-console.log(cliente1.toString());
+let cliente3 = new Cliente('María', 'Díaz', 22, new Date());
+console.log(cliente3.toString());
 
 
 // PRUEBA CLASE PERSONA
 
-let persona1 = new Persona('Juan', 'Perez', 32);
-console.log(persona1.toString());
+let persona3 = new Persona('Juan', 'Perez', 32);
+console.log(persona3.toString());
 
-let persona2 = new Persona('Carla', 'Ortega', 22);
-console.log(persona2.toString());
+let persona4 = new Persona('Carla', 'Ortega', 22);
+console.log(persona4.toString());
 
 // ==============================
 // Prueba clase Empleado
