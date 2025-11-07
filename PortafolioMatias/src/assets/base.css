@@ -1,0 +1,177 @@
+/* ========= Variables & Reset ========= */
+:root {
+  --bg: #f7f9fb;
+  --surface: #ffffff;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --line: #e5e7eb;
+
+  --brand: #42b883;        /* Verde Vue */
+  --brand-600: #2f8f6e;
+  --brand-700: #2d7a62;
+  --nav-bg: #2f4858;       /* Azul/gris para navbar */
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Poppins", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img { max-width: 100%; display: block; }
+
+/* Contenedor general */
+.container {
+  width: min(1100px, 92%);
+  margin-inline: auto;
+}
+
+/* ========= Tipografías ========= */
+h1, h2, h3 {
+  line-height: 1.2;
+  margin: 0 0 .75rem;
+}
+h1 { font-size: clamp(2rem, 3vw, 2.6rem); font-weight: 700; }
+h2 { font-size: clamp(1.4rem, 2.2vw, 1.8rem); font-weight: 600; }
+h3 { font-size: 1.05rem; font-weight: 600; color: var(--brand); }
+
+/* ========= Header ========= */
+header {
+  text-align: center;
+  padding: 1.25rem 0 .75rem;
+}
+header p { color: var(--muted); margin: .25rem 0 .4rem; }
+
+/* ========= NavBar (estructura: nav.navbar > ul > li > a) ========= */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--nav-bg);
+  box-shadow: 0 4px 14px rgba(0,0,0,.08);
+}
+.navbar ul {
+  margin: 0;
+  padding: 0.2rem 0;
+  display: flex;
+  gap: .5rem;
+  list-style: none;
+  overflow-x: auto;
+}
+.navbar li { margin: 0; }
+.navbar a {
+  display: inline-block;
+  color: #e8eef3;
+  text-decoration: none;
+  font-weight: 500;
+  padding: .6rem .9rem;
+  border-radius: .6rem;
+  transition: all .2s ease;
+  white-space: nowrap;
+}
+.navbar a:hover,
+.navbar a:focus {
+  background: rgba(255,255,255,.10);
+  color: #fff;
+}
+
+/* ========= Bloque de bienvenida / cards ========= */
+.intro {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 8px 18px rgba(0,0,0,.05);
+}
+
+/* Secciones */
+main section {
+  padding: 1.8rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+/* ========= Timeline Educación ========= */
+/* Usada por el componente Educacion.vue */
+.timeline {
+  position: relative;
+  margin: 1rem 0 0 1rem;
+  padding-left: 1.5rem;
+  border-left: 3px solid var(--brand);
+}
+
+.timeline li {
+  position: relative;
+  list-style: none;
+  margin: 0 0 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--brand);
+  border-radius: 12px;
+  padding: 1rem 1.1rem;
+  box-shadow: 0 6px 14px rgba(0,0,0,.05);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.timeline li:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 20px rgba(0,0,0,.07);
+}
+
+.timeline li::before {
+  content: "";
+  position: absolute;
+  left: -2.4rem;
+  top: 1.2rem;
+  width: 12px;
+  height: 12px;
+  background: var(--brand);
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 2px var(--brand);
+  border-radius: 50%;
+}
+
+.timeline .fecha {
+  font-weight: 700;
+  color: var(--brand-700);
+  font-size: .9rem;
+  letter-spacing: .02em;
+}
+
+.timeline .titulo {
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin: .25rem 0 .35rem;
+  color: var(--text);
+}
+
+.timeline .descripcion {
+  color: var(--muted);
+  font-size: .95rem;
+}
+
+.btn-link,
+.timeline .enlace {
+  display: inline-block;
+  margin-top: .5rem;
+  padding: .45rem .75rem;
+  border-radius: 8px;
+  text-decoration: none;
+  background: var(--brand);
+  color: #fff;
+  font-weight: 600;
+  border: 1px solid transparent;
+  transition: all .2s ease;
+}
+.btn-link:hover,
+.timeline .enlace:hover {
+  background: var(--brand-600);
+}
+
+/* ========= Utilidades ========= */
+.mt-0 { margin-top: 0 !important; }
