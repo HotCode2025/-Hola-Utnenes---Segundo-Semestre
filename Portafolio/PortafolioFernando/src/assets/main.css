@@ -1,0 +1,18 @@
+@import './base.css';
+#app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+a {
+  text-decoration: none;
+  color: var(--color-accent);
+  transition: 0.3s;
+}
+a:hover { color: var(--color-accent-hover); }
+@media (max-width: 768px) {
+  #app { flex-direction: column; font-size: small; }
+}
+@media (min-width: 1024px) {
+  #app { flex-direction: column; width: 80%; }
+}
