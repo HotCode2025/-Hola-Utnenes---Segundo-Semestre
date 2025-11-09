@@ -1,5 +1,11 @@
 package inventario;
 
+/*
+ * AUTOR: Amelia
+ * PROPÓSITO: Crear categoria para cada producto del inventario
+ * Uso: Recibe un string que lo asigna como categoria un producto creado.
+ */
+
 public class Categoria {
     private int id;
     private String nombre;
