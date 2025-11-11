@@ -1,0 +1,69 @@
+:root {
+  --color-background: #f5f5dc; /* beige */
+  --color-background-soft: #f8f5e4;
+  --color-background-mute: #eee9d6;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #f5f5dc; /* sigue siendo beige en modo oscuro */
+    --color-background-soft: #f8f5e4;
+    --color-background-mute: #eee9d6;
+  }
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: black;
+  background: var(--color-background);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+li{
+list-style: none;
+}
+
+section {
+  padding: 2rem;
+  border-bottom: 1px solid #ccc;
+  margin: 3 rem 0rem 2rem 0rem;
+}
+
+section h2{
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+section h3{
+  color: rgb(209, 183, 148);
+}
