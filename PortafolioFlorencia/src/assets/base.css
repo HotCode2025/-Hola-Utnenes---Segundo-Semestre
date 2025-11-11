@@ -1,0 +1,22 @@
+:root {
+  
+  --violeta-claro: #e0bbff;
+  --violeta-medio: #b266ff;
+  --violeta-oscuro: #7f00ff;
+  --violeta-intenso: #5a0099;
+  --texto-negro: #000000;
+  --texto-blanco: #ffffff;
+
+
+  --ancho-maximo: 1200px;
+  --espaciado-seccion: 40px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
