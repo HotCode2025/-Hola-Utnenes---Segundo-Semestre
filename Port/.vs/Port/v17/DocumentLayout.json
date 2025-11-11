@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gabym\\OneDrive\\Escritorio\\REMOTOS\\Hola UTNenes\\Port\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabym\\OneDrive\\Escritorio\\REMOTOS\\Hola UTNenes\\Port\\Portafolio\\src\\components\\ComponenteExperiencia.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Portafolio\\src\\components\\ComponenteExperiencia.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabym\\OneDrive\\Escritorio\\REMOTOS\\Hola UTNenes\\Port\\Portafolio\\src\\components\\ComponenteEducacion.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Portafolio\\src\\components\\ComponenteEducacion.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabym\\OneDrive\\Escritorio\\REMOTOS\\Hola UTNenes\\Port\\Portafolio\\src\\components\\ComponenteHabilidades.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Portafolio\\src\\components\\ComponenteHabilidades.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ComponenteEducacion.vue",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\REMOTOS\\Hola UTNenes\\Port\\Portafolio\\src\\components\\ComponenteEducacion.vue",
+              "RelativeDocumentMoniker": "Portafolio\\src\\components\\ComponenteEducacion.vue",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\REMOTOS\\Hola UTNenes\\Port\\Portafolio\\src\\components\\ComponenteEducacion.vue",
+              "RelativeToolTip": "Portafolio\\src\\components\\ComponenteEducacion.vue",
+              "ViewState": "AgIAABAAAAAAZjMzMzMLwBUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-11-11T03:06:42.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ComponenteExperiencia.vue",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\REMOTOS\\Hola UTNenes\\Port\\Portafolio\\src\\components\\ComponenteExperiencia.vue",
+              "RelativeDocumentMoniker": "Portafolio\\src\\components\\ComponenteExperiencia.vue",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\REMOTOS\\Hola UTNenes\\Port\\Portafolio\\src\\components\\ComponenteExperiencia.vue",
+              "RelativeToolTip": "Portafolio\\src\\components\\ComponenteExperiencia.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-11-11T03:06:20.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ComponenteHabilidades.vue",
+              "DocumentMoniker": "C:\\Users\\gabym\\OneDrive\\Escritorio\\REMOTOS\\Hola UTNenes\\Port\\Portafolio\\src\\components\\ComponenteHabilidades.vue",
+              "RelativeDocumentMoniker": "Portafolio\\src\\components\\ComponenteHabilidades.vue",
+              "ToolTip": "C:\\Users\\gabym\\OneDrive\\Escritorio\\REMOTOS\\Hola UTNenes\\Port\\Portafolio\\src\\components\\ComponenteHabilidades.vue",
+              "RelativeToolTip": "Portafolio\\src\\components\\ComponenteHabilidades.vue",
+              "ViewState": "AgIAAKYAAAAAOjMzMzMrwAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-11-11T03:06:03.794Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
