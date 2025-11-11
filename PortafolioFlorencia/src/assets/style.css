@@ -1,0 +1,243 @@
+
+:root {
+  --violeta-claro: #e0bbff;
+  --violeta-medio: #b266ff;
+  --violeta-oscuro: #7f00ff;
+  --violeta-intenso: #5a0099;
+  --texto-negro: #000000;
+  --texto-blanco: #ffffff;
+}
+
+
+body {
+  background: linear-gradient(to bottom, var(--violeta-claro), var(--violeta-medio), var(--violeta-oscuro));
+  color: var(--texto-negro);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-size: 22px;
+  line-height: 1.8;
+}
+
+.navbar {
+  background-color: var(--violeta-intenso);
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.25);
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li a {
+  background-color: var(--violeta-medio);
+  color: var(--texto-negro);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 12px 22px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.navbar ul li a:hover,
+.router-link-active {
+  background-color: var(--violeta-oscuro);
+  color: var(--texto-blanco);
+  border-radius: 12px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 90px 60px; 
+  background-color: var(--violeta-medio);
+  border-radius: 25px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+  margin: 70px auto;
+  max-width: 1200px;
+}
+
+.foto {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 30px;
+  border: 5px solid var(--violeta-intenso);
+}
+
+
+section {
+  background-color: var(--violeta-oscuro);
+  color: var(--texto-blanco);
+  border: 2px solid var(--violeta-intenso);
+  border-radius: 18px;
+  padding: 60px;
+  margin: 60px auto;
+  width: 95%;
+  max-width: 1400px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+  text-align: center;
+  transition: transform 0.25s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 22px rgba(0,0,0,0.4);
+}
+
+section h1,
+.header h1 {
+  font-size: 3.5rem; 
+  margin-bottom: 20px;
+  color: var(--texto-blanco);
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+}
+
+section h2 {
+  font-size: 2.3rem;
+  margin-bottom: 20px;
+}
+
+.header p {
+  font-size: 2.1rem; 
+  color: var(--texto-negro);
+  max-width: 900px;
+  line-height: 1.6;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.card {
+  background-color: var(--violeta-medio);
+  color: var(--texto-negro);
+  border-radius: 15px;
+  padding: 30px;
+  width: 280px;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.25);
+  text-align: center;
+  transition: transform 0.25s ease, background-color 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.07);
+  background-color: var(--violeta-claro);
+}
+
+
+#contacto {
+  background: linear-gradient(135deg, var(--violeta-intenso), var(--violeta-medio));
+  border: 3px solid var(--violeta-claro);
+  border-radius: 25px;
+  padding: 100px 60px;
+  width: 90%;
+  max-width: 1300px;
+  margin: 70px auto;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+#contacto h2 {
+  font-size: 2.5rem;
+  color: var(--texto-blanco);
+  margin-bottom: 40px;
+}
+
+#contacto .contact-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+#contacto .contact-links a {
+  color: var(--texto-blanco);
+  font-size: 1.6rem;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#contacto .contact-links a:hover {
+  transform: scale(1.2);
+  color: var(--violeta-claro);
+}
+
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 340px;
+    margin: 10px auto;
+  }
+
+  .header {
+    padding: 40px 20px;
+  }
+
+  section {
+    padding: 30px;
+    margin: 30px;
+  }
+
+  #contacto {
+    padding: 80px 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 18px;
+  }
+
+  .navbar ul li a {
+    font-size: 1rem;
+    padding: 10px 18px;
+  }
+
+  section h1,
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  section p,
+  .header p {
+    font-size: 1.2rem;
+  }
+
+  .foto {
+    width: 130px;
+    height: 130px;
+  }
+
+  section {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  #contacto {
+    padding: 60px 25px;
+  }
+}
